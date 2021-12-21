@@ -1,0 +1,347 @@
+body{
+    margin: 0px;
+}
+.bg{
+    background: url(./Background.png);
+    background-repeat: no-repeat;
+    background-size: 88rem 40rem ;
+}
+.container{
+    margin-left: 95px;
+    margin-right: 95px;
+}
+
+header{
+    background-color: white;
+    overflow: hidden;
+    height: 55px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-bottom: 1px solid lightgray;
+}
+nav li{
+    display: inline-block;
+    text-decoration: none;
+}
+li>a{
+    text-decoration: none;
+    color: rgba(5, 157, 218, 0.952);
+}
+.li1{
+    float: left;
+    font-size: 25px;
+    padding-left: 56px;
+}
+.liright{
+    float: right;
+    display: flex;
+    padding-right: 80px;
+    font-size: 25px;
+}
+#lastli{
+    padding-right: 130px;
+}
+.leftcontent{
+    width: 50%;
+    color: white;
+}
+.rightcontent{
+    width: 50%;
+}
+.heading2{
+    color: wheat;
+}
+.doorheading{
+    font-size: 45px;
+    margin-top: 80px;
+}
+.getbtn1{
+    margin-top: 5px;
+    height: 50px;
+    width: 240px;
+    background:transparent;
+    border-radius: 30px;
+    border: 2px solid white;
+    color: white;
+    font-size: 23px;
+}
+.bgimgtext{
+    height: 550px;
+}
+.section2{
+    padding: 50px;
+    margin: 0px;
+    padding-top: 10px;
+}
+.section2>h1{
+    text-align: center;
+    margin-top: 0px;
+}
+.section2 li{
+    color: rgba(0, 0, 0, 0.747);
+    padding: 5px;
+    font-size: 17px;
+}
+.section2 p{
+    color: rgba(0, 0, 0, 0.747);
+    font-size: 17px;
+}
+.details{
+    margin-top: 30px;
+    background-color: rgb(241, 239, 239);
+    display: block;
+}
+.details h1{
+    padding-top: 60px;
+    font-size: 35px;
+}
+.details span{
+    font-size: 20px;
+    padding: 25px;
+}
+.cities{
+    padding-top: 30px;
+}
+.contact{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.sendrequest{
+    padding: 30px;
+    padding-left: 80px;
+    padding-right: 10px;
+    width: 40%;
+    float: left;
+}
+.sendrequest input,textarea{
+    display: block;
+    padding: 10px;
+    margin-top:20px;
+    width:360px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 13px;
+}
+.sendrequest :nth-child(5){
+    width: 27%;
+    color: white;
+    background-color: rgba(5, 157, 218, 0.952);
+    font-size: 15px;
+}
+
+.reachus{
+    width:42%;
+    color: white;
+    background-color: rgba(5, 157, 218, 0.952);
+    padding: 30px;
+    padding-left: 80px;
+    padding-bottom: 154px;
+    float: right;
+    height:110%;
+}
+.reachus h4{
+    margin: 0px;
+    margin-bottom: 2px;
+}
+.color{
+    color: rgba(5, 157, 218, 0.952);
+}
+.color1{
+    margin-top: 35px;
+    color: rgba(5, 157, 218, 0.952);
+}
+.fontcolor{
+    color: rgba(0, 0, 0, 0.747);
+    font-size: 17px;
+}
+.indexfooter{
+    margin-top: 0px;
+}
+footer{
+    margin-top: 80px;
+    background-color: rgba(5, 157, 218, 0.952) ;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    /* justify-content: center; */
+}
+footer h3{
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+.fpart1{
+    padding: 40px;
+    width: 250px;
+    padding-left: 150px;
+
+}
+.fpart2{
+    padding: 40px;
+    padding-left: 170px;
+    /* padding-right: 170px; */
+}
+.fpart3{
+    padding: 40px;
+    padding-left:170px ;
+}
+.fpart2 li{
+    padding: 5px;
+    padding-left: 5px;
+}
+.fpart2 a{
+    text-decoration: none;
+    color: white;
+}
+.services{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px 20px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    /* font-size: 18px; */
+    justify-content: center;
+}
+.reapairhead{
+    padding: 30px;
+    padding-right: 90px; 
+    /* flex-wrap: wrap;    */
+    
+}
+.reapair{
+    padding: 30px;
+    padding-left: 70px;
+    
+}
+.reapair h4{
+    margin: 5px;
+    margin-left: 0px;
+    color: rgba(5, 157, 218, 0.952);
+    
+}
+.reapairhead>h1{
+    
+    color: rgba(5, 157, 218, 0.952);
+    font-size: 32px;
+}
+.reapair aside{
+    border-radius: 15px 15px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid gray;
+}
+.part{
+    height: 30px;
+    font-size: 50px;
+    padding-left: 15px;
+    padding-right:15px ;
+    color: gray;
+}
+.rs{
+    padding-top: 20px;
+}
+.add{
+    padding-top: 18px;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+.add button{
+    padding: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px 10px;
+    color: white;
+    font-size: 12px;
+    background-color:rgba(5, 157, 218, 0.952) ;
+    border: 1px solid transparent;
+}
+.repairinfo{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.747);
+}
+.reapirpart1{
+width: 250px;
+}
+.arealink{
+    color: rgba(0, 0, 0, 0.747)
+}
+.repaircap{
+    color: rgba(0, 0, 0, 0.747);
+    font-size: 18px;
+}
+.tick{
+    color: rgba(5, 157, 218, 0.952);
+    padding-right: 10px;
+    
+}
+.reapairhead a{
+    color: rgba(0, 0, 0, 0.747);
+}
+.Loginpage{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px 20px;
+    margin-top: 80px;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+}
+.error{
+    color: red;
+}
+.registerrequest{
+    padding: 20px;
+}
+.registerrequest input,textarea{
+    display: block;
+    padding: 10px;
+    margin-top:20px;
+    width:360px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 13px;
+}
+.registersubmit{
+    width: 100%;
+    color: white;
+    background-color: rgba(5, 157, 218, 0.952);
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-top:20px;
+    padding: 10px;
+}
+.loginrequest{
+    padding: 25px;
+    padding-bottom: 35px;
+}
+.loginrequest input,textarea{
+    display: block;
+    padding: 10px;
+    margin-top:20px;
+    width:360px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 13px;
+}
+.loginrequest :nth-child(3){
+    width: 100%;
+    color: white;
+    background-color: rgba(5, 157, 218, 0.952);
+    font-size: 15px;
+}
+#center{
+    display: flex;
+    justify-content: center;
+}
+.fpass{
+    text-align: center;
+    color:  rgba(5, 157, 218, 0.952);
+    margin: 5px;
+}

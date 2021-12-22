@@ -125,12 +125,12 @@ li>a{
     border: 1px solid gray;
     font-size: 13px;
 }
-.sendrequest :nth-child(5){
+/* .sendrequest :nth-child(5){
     width: 27%;
     color: white;
     background-color: rgba(5, 157, 218, 0.952);
     font-size: 15px;
-}
+} */
 
 .reachus{
     width:42%;
@@ -330,12 +330,7 @@ width: 250px;
     border: 1px solid gray;
     font-size: 13px;
 }
-.loginrequest :nth-child(3){
-    width: 100%;
-    color: white;
-    background-color: rgba(5, 157, 218, 0.952);
-    font-size: 15px;
-}
+
 #center{
     display: flex;
     justify-content: center;

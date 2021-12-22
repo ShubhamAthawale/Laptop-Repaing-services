@@ -232,3 +232,18 @@ function validateForm(){
     return st1 && st2 && st3 && st4 && st5 && st6 && st7;
 
 }
+function validateForm1(){
+    let st1=validate1();
+    let st2=validate2();
+    let st6=validate6();
+    let st7=validate7();
+    return st1 && st2 && st6 && st7;
+
+}
+function validateForm2(){
+    let st3=validate3();
+    let st4=validate4();
+    
+    return st3 && st4 ;
+
+}

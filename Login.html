@@ -9,6 +9,14 @@
     <meta name="description" content="put short description">
     <meta name="viewpoint" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="./Style.css">
+    <style>
+        .registersubmit {
+            width: 100%;
+            color: white;
+            background-color: rgba(5, 157, 218, 0.952);
+            font-size: 15px;
+        }
+    </style>
 </head>
 
 <body>
@@ -29,10 +37,31 @@
             <section class="login">
                 <div class="loginrequest">
                     <h1 class="color" id="center">Login</h1>
-                    <form>
-                        <input type="text" id="uname" name="uname" onblur="validate3()" placeholder="User Name">
-                        <input type="password" id="pass" name="password" onblur="validate4()" placeholder="Password">
-                        <input class="submit" type="submit" value="Login">
+
+                    <form action="./Login.html" onsubmit="return validateForm2()" novalidate>
+
+
+                        <table>
+                            <tr>
+                                <td> <input type="text" id="uname" name="uname" onblur="validate3()"
+                                        placeholder="User Name">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="error3" class="error"></td>
+                            </tr>
+                            <tr>
+                                <td> <input type="password" id="pass" name="password" onblur="validate4()"
+                                        placeholder="Password">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="error4" class="error"></td>
+                            </tr>
+                            <tr>
+                                <td><button class="registersubmit" type="submit"> Send</button>
+                            </tr>
+                        </table>
                         <br>
                         <hr>
                         <h5 class="fpass">Forgort Password ?</h5>
@@ -72,7 +101,7 @@
                 Hinjewadi Pune,<br> 41107</label>
         </section>
     </footer>
-    <script src="./JavaScriptFiles/MyScript.js"></script>
+    <script src="./MyScript.js"></script>
 </body>
 
 </html>
